@@ -1,0 +1,25 @@
+venv/
+.env
+
+# Pasta de trabalho e cache do Terraform (plugins/módulos)
+.terraform/
+
+# Arquivos de estado local (Contêm segredos e senhas em texto puro!)
+*.tfstate
+*.tfstate.*
+
+# Logs de erro/crash
+crash.log
+crash.*.log
+
+# Arquivos de variáveis locais e segredos
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Arquivos de planos gerados localmente (opcional, mas recomendado)
+*.tfplan
+
