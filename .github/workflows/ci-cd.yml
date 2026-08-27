@@ -3,7 +3,7 @@
 #
 # Este arquivo tem SÓ o job "ci" -- lint + testes, roda 100% local/GitHub, sem
 # depender do Azure nem de nenhum secret. É o entregável CORE da aula.
-#
+# 
 # Quer adicionar o job "deploy" (autenticação no Azure via OIDC)? Isso é a
 # Parte Extra (opcional) da aula -- o trecho pronto do job está em
 # aula6_material/extra-job-deploy-oidc.yml.txt. Só depois de configurar a
