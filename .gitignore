@@ -1,6 +1,12 @@
 venv/
 .env
 
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+.venv/
+
 # Pasta de trabalho e cache do Terraform (plugins/módulos)
 .terraform/
 
